@@ -17,7 +17,7 @@ def main():
     sd.wait()
     write(FILE_LOCATION, fs, recording)
 
-    converter = speech_to_text(a906f30674f84cd4b2bf9b6b55c367db)
+    converter = speech_to_text(API_KEY)
 
     upload = converter.upload_file(FILE_LOCATION)
 
