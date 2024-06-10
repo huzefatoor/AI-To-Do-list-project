@@ -19,3 +19,5 @@ obj = wave.open("output.mp3", "rb")
 print(obj.getframerate())
 print(obj.getnchannels())
 print(obj.getnframes())
+
+t_audio = obj.getnframes()/obj.getframerate()
