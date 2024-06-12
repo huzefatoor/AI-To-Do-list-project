@@ -6,7 +6,7 @@ import playsound
 import os
 
 # Set up AssemblyAI
-assemblyai.api_key = 'a906f30674f84cd4b2bf9b6b55c367db'
+assemblyai.api_key = 'your_assemblyai_api_key'
 
 # Initialize speech recognizer
 recognizer = sr.Recognizer()
